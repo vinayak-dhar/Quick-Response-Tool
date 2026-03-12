@@ -7,6 +7,6 @@ export const uploadFile = async (file, email) => {
   formData.append("file", file);
   formData.append("email", email);
 
-  return axios.post("http://localhost:5000/api/analyze", formData);
+  return axios.post("https://quick-response-tool.onrender.com/api/analyze", formData);
 
 };
