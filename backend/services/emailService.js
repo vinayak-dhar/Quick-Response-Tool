@@ -12,7 +12,7 @@ const sendEmail = async (to, summary) => {
   try {
 
     const response = await resend.emails.send({
-      from: "Sales Insight Automator <onboarding@resend.dev>",
+      from: "Sales Insight Automator Hello World <onboarding@resend.dev>",
       to: [to],
       subject: "Sales Insight Summary",
       text: summary
